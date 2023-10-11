@@ -1,0 +1,89 @@
+
+*{
+    padding: 0.1vw;
+    margin: 0vw;
+}
+
+.backgroundcolor{
+    background-color: #efd8d8;
+    height: 100%;
+
+}
+.navbar{
+    border: 0.25vh solid black;
+    background-color: #d3c19f;
+    height: 2vw;
+    padding: 1vw;
+    border-radius: 5px;
+}
+
+.navbarthings{
+    position: relative;
+    left: 70%;
+    float: left;
+    font-family: 'Lucida Sans Unicode';
+    color:black;
+}
+
+.menubar{
+    text-align: center;
+    display: inline;
+    position:relative;
+    left: 15%;
+    font-size: large;
+    color: black;
+}
+.productname{
+    float: left;
+    display: inline;
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 1vw;   
+}
+
+.title{
+    left: 43%;
+    position: relative;
+    text-decoration: underline;
+}
+#bread, #cookies, #pastries, #cakes{
+    
+    font-size: large;
+}
+
+#content{
+    border: 0.4vh solid black;
+    margin-top: 3vw;
+    margin-left: 9vw;
+    width: 80vw;
+    height: 75vh;
+    background-color: #FFF1F1;
+    font-family:Verdana;
+    border-radius: 15px;
+    
+}
+
+#content h1{
+    margin: 1.5vw;
+    font-family:'Lucida Grande';
+}
+
+.desserts img{
+    position: relative;
+    width: 28vh;
+    height:28vh;
+    padding: 0.5vh;
+    background-color: rgb(88, 63, 32);
+    left: 8.5%;
+}
+
+#content p{
+    position: relative;
+    top: 1vw;
+    float: right;
+    margin: 2.5vw;
+    background-color: rgb(216, 206, 185);
+    font-family: 'Itim', cursive;
+    font-size: 1.15vw;
+}

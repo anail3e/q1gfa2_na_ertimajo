@@ -4,6 +4,11 @@
     margin: 0vw;
 }
 
+.backgroundcolor{
+    background-color: #92a2b4;
+    height: 100%;
+
+}
 .navbar{
     border: 0.25vh solid black;
     background-color: #d3c19f;
@@ -34,43 +39,29 @@
     color: black;
     font-weight: bold;
     font-size: x-large;
-    margin-left: 1vw;
-    left: 10%;
-    
+    margin-left: 1vw;   
 }
 
+.title{
+    left: 43%;
+    position: relative;
+    text-decoration: underline;
+}
 #bread, #cookies, #pastries, #cakes{
     
     font-size: large;
 }
 
-.body{
-    margin-top: 2vw;
-    margin-left: 3vw;
-    margin-right: 3vw;
-}
-
-.left{
-    float: left;
-    border: 0.25vh solid black;
-    background-color: #F1DEC9;
-    padding: 1vw;
-    width: 8vw;
-    text-align: center;
-    width: 11vw;
-    height: 18vh;
-    border-radius: 5px;
-}
-
-
 #content{
-    border: 0.3vh solid black;
-    margin-left: 14.5vw;
-    width: 60vw;
-    height: 74vh;
-    background-color: #dbc9b8;
+    border: 0.4vh solid black;
+    margin-top: 3vw;
+    margin-left: 9vw;
+    width: 80vw;
+    height: 75vh;
+    background-color: #b2becb;
     font-family:Verdana;
     border-radius: 15px;
+    
 }
 
 #content h1{
@@ -80,11 +71,11 @@
 
 .desserts img{
     position: relative;
-    width: 24vh;
-    height:24vh;
+    width: 28vh;
+    height:28vh;
     padding: 0.5vh;
     background-color: rgb(255, 255, 255);
-    left: 2.5%;
+    left: 8.5%;
 }
 
 #content p{
@@ -92,37 +83,7 @@
     top: 1vw;
     float: right;
     margin: 2.5vw;
-    background-color: rgb(255, 255, 255);
+    background-color: #fefefe;
     font-family: 'Itim', cursive;
     font-size: 1.15vw;
-}
-
-#right{
-    float: right;
-    border: 0.27vh solid black;
-    background-color: #F1DEC9;
-    position: relative;
-    bottom: 74.5vh;
-    width: 16.5vw;
-    height: 55vh;
-    left: 0.5%;
-    border-radius: 5px;
-}
-
-#right img{
-    width: 25.5vh;
-    padding: 2vh;
-    background-color: #dfc19f;
-}
-#contact-info{
-    text-align: center;
-    margin: 0.2vw;
-    padding: 1vh;
-    font-style: italic;
-}
-
-.backgroundcolor{
-    background-color:rgb(192, 172, 145);
-    height: 100%;
-
 }
